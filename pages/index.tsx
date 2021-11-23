@@ -11,7 +11,7 @@ import { setTodo } from "../store/TodoSlice";
 import { RootState } from "../store";
 import { useEffect } from "react";
 import { todoFetcher } from "../lib/todoFetcher";
-import FetchTodoData from "../data/fetchTodoData";
+import FetchTodoData from "../data/FetchTodoData";
 
 interface prop {
   data: Todo[];
